@@ -2,6 +2,11 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    | <router-link to="/basic"> Componente Básico </router-link>
+    | <router-link to="/props"> Props </router-link>
+    | <router-link to="/emit"> Emitir Eventos </router-link>
+    | <router-link to="/slot"> Slots </router-link>
+    | <router-link to="/bind-sync"> v-bind.sync </router-link>
   </nav>
   <router-view/>
 </template>
